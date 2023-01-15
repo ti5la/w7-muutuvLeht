@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&family=Open+Sans:wght@300&family=Roboto:ital,wght@1,300&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    
+}
+
+.header h1 {
+    text-transform: uppercase;
+}
+
+.image-container {   
+    clip-path: circle(50% at 50% 50%);
+    background-image: url('../img/profile1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 450px;
+    margin: 2rem auto;  
+}
+
+.navigation ul li {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    width: 16rem;
+    margin: 3rem 0;
+}
+
+.navigation ul li:not(:last-child) {
+    margin-right: 6rem;
+}
+
+
+.main-container {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.main-container div {
+    margin-bottom: 2rem;
+}
+
+.main-container h1 {
+    margin-bottom: 5rem;
+}
+
+.main-container p {
+    text-align: justify;
+}
+
+.footer {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.footer ul {
+    list-style: none;
+    margin-bottom: 3rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 2rem;
+}
+
+.footer ul a {
+    color: #777;
+    text-decoration: none;
+}
+
+
+@media (min-width: 480px) {
+    
+
+    .image-container {
+        background-image: url('../img/profile2.jpg');
+
+    }
+
+    .header h1 {
+        color: blueviolet;
+    }
+
+    .container {
+        width: 100%;
+        background-color: darkgray;
+        
+    }
+    
+
+    .navigation ul li {
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+        color: blueviolet;
+        border: 1px solid blueviolet;
+    }
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+    }
+    
+
+    .main-container {
+        padding: 0.75rem;
+        width: 100%;
+        color: rgb(61, 33, 87);
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+
+    .footer {
+        color: blueviolet;
+    }
+    
+}
+
+
+@media (min-width: 768px) {
+
+ 
+    .image-container {
+        background-image: url('../img/profile3.jpg');
+
+    }
+
+    .header h1 {
+        color: darkgoldenrod;
+    }
+
+    .container {
+        width: 100%;
+        background-color: darkred;
+        
+    }
+    
+
+    .navigation ul li {
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+        color: darkgoldenrod;
+        border: 1px solid darkgoldenrod;
+    }
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+    }
+    
+
+    .main-container {
+        padding: 0.75rem;
+        width: 100%;
+        color: darkgoldenrod;
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+
+    .footer {
+        color: darkgoldenrod;
+    }
+}
+
+
+@media (min-width: 1024px){
+        
+ 
+
+    .image-container {
+        background-image: url('../img/profile4.jpg');
+
+    }
+
+    .header h1 {
+        color: darkcyan;
+    }
+
+    .container {
+        width: 85%;
+        background-color: darkorange;
+        
+    }
+    
+
+    .navigation ul li {
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+        color: darkcyan;
+        border: 1px solid darkcyan;
+    }
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+    }
+    
+
+    .main-container {
+        padding: 0.75rem;
+        width: 100%;
+        color: darkcyan;
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+
+    .footer {
+        color: darkcyan;
+    }
+}
+
+
+@media (min-width: 1200px){
+
+
+    .image-container {
+        background-image: url('../img/profile1.jpg');
+
+    }
+
+    .container {
+        background-color: aquamarine;
+        width: 75%;
+
+    }
+
+    .header h1 {
+        margin: 3rem auto;
+        color: magenta;
+    }
+    .navigation ul li {
+        display: inline-block;
+        width: 16rem;
+        color: magenta;
+        border: 1px solid magenta;
+    }
+    
+    .navigation ul li:not(:last-child) {
+        border-bottom: 1px solid black;
+        margin-right: 4rem;
+        color: magenta;
+    }
+
+    .main-container {
+        width: 75%;
+        color: magenta;
+    }
+
+    .footer {
+        color: magenta;
+    }
+
+}
+
+
